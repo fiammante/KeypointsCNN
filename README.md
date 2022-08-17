@@ -19,3 +19,6 @@ Test accuracy: 0.9150999784469604
 With discriminator weights and frozen training of that layer 
 Test loss: 0.48668134212493896
 Test accuracy: 0.9110999703407288
+
+To build the categorization CNN I use the receptive field computation to ensure that the CNN covers all significant elements of images.
+https://github.com/google-research/receptive_field
